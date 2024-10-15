@@ -1,0 +1,80 @@
+.product-list {
+    max-width: 1200px; /* Set a max width for the product list */
+    margin: 40px auto; /* Center the product list with margin */
+    padding: 20px; /* Add padding around the container */
+    border: 1px solid #ddd; /* Light border around the container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+.product-list ul {
+    list-style: none; /* Remove default list styles */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+}
+
+.product-list li {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center align items vertically */
+    padding: 20px; /* Add padding to list items */
+    border-bottom: 1px solid #ddd; /* Add a bottom border for separation */
+}
+
+.product-list li:last-child {
+    border-bottom: none; /* Remove border from the last item */
+}
+
+.product-image {
+    width: 100px; /* Fixed width for product images */
+    height: 100px; /* Fixed height for product images */
+    margin-right: 20px; /* Space between image and details */
+    border-radius: 10px; /* Rounded corners for images */
+}
+
+.product-details {
+    flex-grow: 1; /* Allow this section to grow */
+}
+
+.product-details h3 {
+    font-size: 18px; /* Font size for product name */
+    margin-top: 0; /* Remove top margin */
+}
+
+.product-details p {
+    font-size: 14px; /* Font size for product description */
+    color: #666; /* Gray color for description text */
+}
+
+.add-to-cart, .buy-Now {
+    background-color: #4CAF50; /* Green background for buttons */
+    color: #fff; /* White text color */
+    border: none; /* Remove default border */
+    padding: 10px 20px; /* Padding for buttons */
+    font-size: 16px; /* Font size for button text */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    margin-right: 10px; /* Space between buttons */
+}
+
+.add-to-cart:hover, .buy-Now:hover {
+    background-color: #3e8e41; /* Darker green on hover */
+}
+
+.buy-Now {
+    background-color: #e74c3c; /* Red background for cancel button */
+}
+
+.buy-Now:hover {
+    background-color: #c0392b; /* Darker red on hover */
+}
+
+/* Loading and Error Styles */
+
+.loading {
+    text-align: center; /* Center the loading text */
+    padding: 20px; /* Add padding */
+}
+
+.error {
+    text-align: center; /* Center the error message */
+    padding: 20px; /* Add padding */
+    color: #e74c3c; /* Red color for error messages */
+}

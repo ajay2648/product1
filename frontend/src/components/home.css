@@ -1,0 +1,79 @@
+.vertical-list {
+  display: flex;
+  flex-direction: column; /* Changed from row to column */
+  align-items: center;
+}
+
+.vertical-list li {
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #3f3f3f;
+  margin-left: 50px;
+}
+
+.container {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 10px; /* Added padding */
+}
+
+.container img {
+  width: 20%; /* Increased width */
+  height: 150px; /* Set fixed height */
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid white;
+  transition: all ease-in-out 0.5s;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Added box shadow */
+}
+
+.container img:hover {
+  width: 30%;
+  height: 80%; /* Added to maintain aspect ratio */
+}
+.btn-primary{
+  width: 200px;
+  position: relative;
+  margin: 10px 650px;
+}
+.a123{
+  color: white;
+}
+.footer{
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  display: inline;
+  margin: 0 15px;
+}
+
+.footer-links a, .footer-social a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-social a {
+  margin: 0 10px;
+}

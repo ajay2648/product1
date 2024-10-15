@@ -1,0 +1,88 @@
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.2); /* added rgba for box-shadow */
+}
+
+h2 {
+  text-align: center;
+}
+
+label {
+  margin-bottom: 10px;
+  display: flex;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 2px solid #ccc;
+  border-radius: 3px;
+  box-sizing: content-box;
+}
+
+button {
+  transition-duration: 0.2s;
+  width: 100%;
+  padding: 10px;
+  background-color: #0672f7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  align-items: center;
+}
+
+button:hover {
+  border-radius: 30px;
+  box-shadow: 0px 3px 30px;
+  background-color: #0056b3;
+  color: #ccc;
+}
+nav {
+  background-color: #3c3b3b;
+  color: gray;
+  justify-content: space-between;
+  display: flex;
+  padding-left: 500px;
+  align-content: space-between;
+}
+
+nav ul {
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+nav ul li {
+  display: inline-flex;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: dashed;
+  color: rgb(255, 251, 251);
+}
+.content {
+  padding: 10px;
+}
+body{
+  background-image: url('C:\Users\Ajay_\OneDrive\Documents\product1\image.jpg');
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+button{
+  margin-inline-start: auto;
+}
+nav li{
+  padding: 15px;
+  justify-content: space-between;
+  margin: auto;
+}
